@@ -23,7 +23,7 @@ An exponent of 2 produces circular corners, while a higher exponent produces squ
 ## Installation
 
 1. Download or clone this repository.
-2. Place this folder in your Inkscape extensions directory.  
+2. Place this folder `superellipse_inkscape-extension` in your Inkscape extensions directory.  
 Linux: `~/.config/inkscape/extensions`
 3. Restart Inkscape.
 
