@@ -19,15 +19,15 @@ An exponent of 2 produces circular corners, while a higher exponent produces squ
 
 ## Output
 
-- The extension creates a closed SVG path in the current layer, centered on the document's viewBox.
-- The generated path can be edited using Inkscape's Node tool.
+The extension creates a closed SVG path in the current layer, centered on the document's viewBox.
 
 ## Installation
 
 1. Download or clone this repository.
 2. Place this folder `superellipse_inkscape-extension` in your Inkscape extensions directory.  
-Linux: `~/.config/inkscape/extensions`
-3. Restart Inkscape.
+[mac, linux] `~/.config/inkscape/extensions`  
+[windows] `C:\Users[yourUsername]\AppData\Roaming\inkscape\extensions`  
+4. Restart Inkscape.
 
 The extension is available under `Extensions` → `Render` → `Superellipse`.
 
