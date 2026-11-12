@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inkscape-extension xmlns="http://www.inkscape.org/namespace/inkscape/extension">
+    <name>Superellipse</name>
+    <id>org.example.superellipse</id>
+
+    <param name="unit" type="optiongroup" appearance="minimal" gui-text="Unit:">
+        <option value="cm">cm</option>
+        <option value="in">in</option>
+        <option value="pt">pt</option>
+        <option value="pc">pc</option>
+        <option value="mm">mm</option>
+        <option value="px" default="true">px</option>
+    </param>
+    <param name="width" type="float" min="1" max="2048" precision="3" gui-text="Width:">128</param>
+    <param name="height" type="float" min="1" max="2048" precision="3" gui-text="Height:">128</param>
+    <separator />
+    <param name="exponent" type="float" min="1" max="18" precision="3" gui-text="Exponent:">3</param>
+    <param name="corner_ratio" type="float" min="0" max="1" precision="3" gui-text="Corner Ratio:">0.62</param>
+    <param name="precision_level" type="int" min="1" max="6" gui-text="Precision Level:">3</param>
+
+    <effect>
+        <object-type>all</object-type>
+        <effects-menu>
+            <submenu name="Render"/>
+        </effects-menu>
+    </effect>
+
+    <script>
+        <command location="inx" interpreter="python">superellipse.py</command>
+    </script>
+</inkscape-extension>
