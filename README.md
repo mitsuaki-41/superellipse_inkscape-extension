@@ -1,6 +1,8 @@
 # Superellipse: Inkscape extension
 
-An Inkscape extension for generating superellipse shapes, including squircles.
+An Inkscape extension for generating superellipse shapes, including squircles.  
+
+<img alt="preview" src="https://github.com/mitsuaki-41/superellipse_inkscape-extension/blob/main/preview0.png?raw=true" width="256" />  
 
 ## Parameters
 
