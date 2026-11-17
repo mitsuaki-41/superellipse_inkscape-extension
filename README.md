@@ -31,7 +31,15 @@ The extension creates a closed SVG path in the current layer, centered on the do
 [mac, linux] `~/.config/inkscape/extensions`  
 [windows] `C:\Users[yourUsername]\AppData\Roaming\inkscape\extensions`  
 4. Restart Inkscape.
-
+  
+If tinycss2 is not installed on the system:  
+```sh
+pip install tinycss2
+```
+or debian based linux distribution:  
+```sh
+sudo apt install python3-tinycss2
+```
 The extension is available under `Extensions` → `Render` → `Superellipse`.
 
 ## License
