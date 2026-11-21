@@ -13,7 +13,7 @@ An Inkscape extension for generating superellipse shapes, including squircles.
 2. Place this folder `superellipse_inkscape-extension` in your Inkscape extensions directory.  
 [mac, linux] `~/.config/inkscape/extensions`  
 [windows] `C:\Users[yourUsername]\AppData\Roaming\inkscape\extensions`  
-4. Restart Inkscape. The extension will be available under `Extensions` → `Render` → `Superellipse`.
+4. Restart Inkscape. The extension will be available under `Extensions` → `Render` → `Superellipse...`.
 
 If tinycss2 is not installed on the system:  
 ```sh
